@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # Allow user to pick what commit hash they want to checkout
-echo Enter the commit hash of desired Blockly version or enter nothing to use the latest version of blockly
-read githash
+githash="1.20190419.0"
 
 # Clear tmp directory if it exist
 rm -rf tmp
